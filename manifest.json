@@ -1,0 +1,25 @@
+{
+  "name": "نور التلاوة – مصحفي الصوتي",
+  "short_name": "نور التلاوة",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#080c0b",
+  "theme_color": "#080c0b",
+  "description": "مصحف صوتي للتلاوة والحفظ والتسميع ومتابعة التقدم",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

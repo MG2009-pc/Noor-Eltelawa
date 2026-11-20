@@ -9,9 +9,9 @@
          worse than no in-place translation. -->
 <meta content="notranslate" name="google"/>
 <title>نور التلاوة</title>
-<meta content="#080c0b" name="theme-color"/>
-<meta content="yes" name="apple-mobile-web-app-capable"/>
-<meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
+  <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#000000f1">
+    <link rel="apple-touch-icon" href="icon-192.png">
 
 
 <style>
@@ -2438,4 +2438,12 @@ function renderRoute(){
 window.addEventListener('hashchange',renderRoute);
 renderRoute();
 })();
-</script></body></html>
+</script>
+ <script>
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+        navigator.serviceWorker.register("service-worker.js");
+    });
+}
+</script>
+</body></html>
